@@ -25,7 +25,7 @@
 ## 🏆 Featured Project
 <div align="center">
   
-[![UKK_PERPUSTAKAAN_SEKOLAH](https://github-readme-stats.vercel.app/api/pin/?username=Khf20&repo=UKK_PERPUSTAKAAN_SEKOLAH&theme=dark)](https://github.com/Khf20/UKK_PERPUSTAKAAN_SEKOLAH)
+[![Ukk-Perpustakaan-sekolah](https://github-readme-stats.vercel.app/api/pin/?username=Khf20&repo=Ukk-Perpustakaan-sekolah&theme=dark)](https://github.com/Khf20/Ukk-Perpustakaan-sekolah)
 
 </div>
 
