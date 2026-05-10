@@ -1,127 +1,86 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Cyberpunk animated profile header</title>
-  <desc id="desc">A neon cyberpunk city header with animated scan lines, glowing grid, and terminal style profile text.</desc>
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Khulaifi cyberpunk profile banner</title>
+  <desc id="desc">A subtle animated cyberpunk banner with neon grid lines and the text Khulaifi, student developer.</desc>
 
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#01012B"/>
-      <stop offset="0.48" stop-color="#120033"/>
-      <stop offset="1" stop-color="#00111A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070B1A"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#050816"/>
     </linearGradient>
 
-    <linearGradient id="neonLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FF2A6D"/>
-      <stop offset="0.48" stop-color="#05D9E8"/>
-      <stop offset="1" stop-color="#D1F7FF"/>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF2A6D"/>
+      <stop offset="0.5" stop-color="#05D9E8"/>
+      <stop offset="1" stop-color="#7B61FF"/>
     </linearGradient>
 
-    <radialGradient id="sunGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(945 127) rotate(90) scale(152)">
-      <stop offset="0" stop-color="#FF2A6D" stop-opacity="0.9"/>
-      <stop offset="0.55" stop-color="#7B61FF" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#05D9E8" stop-opacity="0"/>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 104) rotate(90) scale(190)">
+      <stop offset="0" stop-color="#05D9E8" stop-opacity="0.42"/>
+      <stop offset="0.45" stop-color="#7B61FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#050816" stop-opacity="0"/>
     </radialGradient>
 
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.05 0 1 0 0 0.9 0 0 1 0 1 0 0 0 1 0" result="colorBlur"/>
-      <feMerge>
-        <feMergeNode in="colorBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="textGlow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
-      <path d="M 80 0 L 0 0 0 80" stroke="#05D9E8" stroke-opacity="0.35" stroke-width="1"/>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" stroke="#05D9E8" stroke-opacity="0.16" stroke-width="1"/>
     </pattern>
-
-    <clipPath id="screenClip">
-      <rect x="72" y="64" width="640" height="232" rx="18"/>
-    </clipPath>
   </defs>
 
-  <rect width="1200" height="420" fill="url(#sky)"/>
-  <rect width="1200" height="420" fill="url(#sunGlow)"/>
-
-  <g opacity="0.75">
-    <circle cx="945" cy="127" r="74" fill="#FF2A6D" opacity="0.18"/>
-    <circle cx="945" cy="127" r="48" fill="#05D9E8" opacity="0.13"/>
-  </g>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#glow)"/>
 
   <g opacity="0.9">
-    <path d="M0 315H1200" stroke="url(#neonLine)" stroke-width="2" filter="url(#glow)"/>
-    <rect x="0" y="315" width="1200" height="105" fill="url(#grid)" opacity="0.42">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -80 0" dur="7s" repeatCount="indefinite"/>
+    <path d="M0 260H1200" stroke="url(#line)" stroke-width="2" filter="url(#softGlow)"/>
+    <rect y="260" width="1200" height="100" fill="url(#grid)" opacity="0.65">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-60 0" dur="8s" repeatCount="indefinite"/>
     </rect>
-    <g stroke="#05D9E8" stroke-opacity="0.45">
-      <path d="M120 420L535 315"/>
-      <path d="M330 420L595 315"/>
-      <path d="M570 420L655 315"/>
-      <path d="M840 420L730 315"/>
-      <path d="M1080 420L790 315"/>
-    </g>
+    <path d="M220 360L520 260M470 360L610 260M730 360L680 260M990 360L770 260" stroke="#05D9E8" stroke-opacity="0.22"/>
   </g>
 
-  <g opacity="0.86">
-    <rect x="765" y="214" width="74" height="101" fill="#05051F"/>
-    <rect x="853" y="166" width="98" height="149" fill="#070724"/>
-    <rect x="967" y="198" width="63" height="117" fill="#05051F"/>
-    <rect x="1046" y="132" width="82" height="183" fill="#070724"/>
-    <rect x="1140" y="231" width="48" height="84" fill="#05051F"/>
-    <path d="M884 166L901 137L918 166" fill="#070724"/>
-    <path d="M1087 132L1111 98L1128 132" fill="#070724"/>
+  <g opacity="0.72">
+    <rect x="820" y="168" width="68" height="92" fill="#0B1023"/>
+    <rect x="902" y="126" width="92" height="134" fill="#0B1023"/>
+    <rect x="1010" y="152" width="74" height="108" fill="#0B1023"/>
+    <rect x="1098" y="104" width="62" height="156" fill="#0B1023"/>
+    <path d="M922 126L947 94L974 126" fill="#0B1023"/>
+    <path d="M1112 104L1133 76L1152 104" fill="#0B1023"/>
   </g>
 
-  <g filter="url(#glow)">
-    <path d="M782 236H824M866 190H936M982 219H1019M1061 156H1113M1150 252H1178" stroke="#05D9E8" stroke-width="3" stroke-linecap="round">
-      <animate attributeName="opacity" values="0.2;1;0.35;1;0.2" dur="3.4s" repeatCount="indefinite"/>
+  <g filter="url(#softGlow)">
+    <path d="M838 190H874M920 152H976M1026 178H1070M1112 128H1148" stroke="#05D9E8" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.35;1;0.55;1;0.35" dur="3.5s" repeatCount="indefinite"/>
     </path>
-    <path d="M796 260H816M874 214H888M914 214H928M996 248H1012M1074 184H1092M1108 184H1118" stroke="#FF2A6D" stroke-width="3" stroke-linecap="round">
-      <animate attributeName="opacity" values="1;0.3;1;0.2;1" dur="2.7s" repeatCount="indefinite"/>
+    <path d="M840 216H864M930 178H946M960 178H976M1036 206H1062M1118 160H1142" stroke="#FF2A6D" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="opacity" values="1;0.4;1;0.5;1" dur="2.8s" repeatCount="indefinite"/>
     </path>
   </g>
 
   <g>
-    <rect x="72" y="64" width="640" height="232" rx="18" fill="#05051F" opacity="0.82" stroke="#05D9E8" stroke-opacity="0.9" stroke-width="2"/>
-    <rect x="90" y="84" width="604" height="38" rx="10" fill="#0B102E" stroke="#FF2A6D" stroke-opacity="0.45"/>
-    <circle cx="114" cy="103" r="6" fill="#FF2A6D"/>
-    <circle cx="138" cy="103" r="6" fill="#F7D154"/>
-    <circle cx="162" cy="103" r="6" fill="#05D9E8"/>
-  </g>
-
-  <g clip-path="url(#screenClip)">
-    <rect x="72" y="64" width="640" height="232" fill="transparent"/>
-    <rect x="72" y="44" width="640" height="26" fill="#05D9E8" opacity="0.1">
-      <animate attributeName="y" values="44;296;44" dur="5s" repeatCount="indefinite"/>
+    <rect x="72" y="76" width="552" height="156" rx="16" fill="#050816" fill-opacity="0.76" stroke="#1F2937"/>
+    <rect x="96" y="100" width="80" height="8" rx="4" fill="#FF2A6D">
+      <animate attributeName="width" values="80;132;80" dur="3.2s" repeatCount="indefinite"/>
     </rect>
-    <path d="M95 151H681" stroke="#05D9E8" stroke-opacity="0.08"/>
-    <path d="M95 196H681" stroke="#05D9E8" stroke-opacity="0.08"/>
-    <path d="M95 241H681" stroke="#05D9E8" stroke-opacity="0.08"/>
+    <rect x="96" y="124" width="210" height="8" rx="4" fill="#05D9E8" opacity="0.75"/>
+    <rect x="96" y="148" width="150" height="8" rx="4" fill="#7B61FF" opacity="0.75"/>
   </g>
 
-  <text x="96" y="160" fill="#05D9E8" font-family="'Courier New', monospace" font-size="26" font-weight="700" filter="url(#textGlow)">KHULAIFI.EXE</text>
-  <text x="96" y="202" fill="#E6EDF3" font-family="'Courier New', monospace" font-size="21">student developer // web learner</text>
-  <text x="96" y="239" fill="#FF2A6D" font-family="'Courier New', monospace" font-size="20">&gt; html.css.php.vibe_coding</text>
-  <text x="96" y="271" fill="#D1F7FF" font-family="'Courier New', monospace" font-size="17">status: building ideas under neon lights</text>
+  <text x="96" y="197" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="0">Khulaifi</text>
+  <text x="100" y="226" fill="#9CA3AF" font-family="Segoe UI, Arial, sans-serif" font-size="20">student developer · HTML · CSS · PHP</text>
 
-  <g filter="url(#glow)">
-    <path d="M94 330H355" stroke="#FF2A6D" stroke-width="4" stroke-linecap="round">
-      <animate attributeName="x2" values="180;355;250;355" dur="3.6s" repeatCount="indefinite"/>
+  <g opacity="0.46">
+    <path d="M72 284H360" stroke="url(#line)" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.35;0.9;0.35" dur="4s" repeatCount="indefinite"/>
     </path>
-    <path d="M94 350H270" stroke="#05D9E8" stroke-width="4" stroke-linecap="round">
-      <animate attributeName="x2" values="132;270;210;270" dur="2.9s" repeatCount="indefinite"/>
+    <path d="M72 300H240" stroke="#05D9E8" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3s" repeatCount="indefinite"/>
     </path>
-  </g>
-
-  <g opacity="0.55">
-    <rect x="0" y="0" width="1200" height="420" fill="none" stroke="#05D9E8" stroke-opacity="0.22" stroke-width="8"/>
-    <path d="M0 28H1200M0 392H1200" stroke="#FF2A6D" stroke-opacity="0.25"/>
   </g>
 </svg>
