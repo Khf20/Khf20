@@ -57,23 +57,34 @@ Learning path
 
 ## NEON.ACTIVITY
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Khf20&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=FF2A6D&text_color=E6EDF3" alt="Khulaifi GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khf20&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&text_color=E6EDF3" alt="Khulaifi top languages" />
-
-</div>
-
-<br />
-
-## CODING.FREQUENCY
+<table>
+  <tr>
+    <td width="50%">
 
 ```txt
+ACTIVE SIGNAL
+
 HTML        ███████████████░░░░░
 CSS         ██████████████░░░░░░
 PHP         ███████████░░░░░░░░░
 Vibe Coding ████████████████████
 ```
+
+  </td>
+  <td width="50%">
+
+```txt
+BUILD QUEUE
+
+01. sharpen web layouts
+02. explore PHP projects
+03. improve UI details
+04. keep shipping experiments
+```
+
+  </td>
+  </tr>
+</table>
 
 <br />
 
