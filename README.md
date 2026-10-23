@@ -87,4 +87,4 @@ Web musik interaktif dengan karaoke lirik per kata dari LRC, kontrol lock screen
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3500&pause=800&color=FF2A6D&center=true&vCenter=true&width=500&lines=⭐+Kasih+star+kalau+suka+project-nya!;💬+Terbuka+untuk+kolaborasi+%26+feedback" alt="outro" /></div><img src="https://capsule-render.vercel.app/api?type=waving&color=0:05d9e8,50:ff2a6d,100:7b61ff&height=130&section=footer&animation=twinkling" width="100%" alt="footer" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3500&pause=800&color=FF2A6D&center=true&vCenter=true&width=500&lines=%E2%AD%90+Kasih+star+kalau+suka+project-nya%21;%F0%9F%92%AC+Terbuka+untuk+kolaborasi+%26+feedback" alt="outro" />
