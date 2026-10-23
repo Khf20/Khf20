@@ -1,187 +1,89 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=05d9e8,ff2a6d,7b61ff&height=220&section=header&text=KHULAIFI&fontColor=ffffff&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Web%20Developer%20|%20Creative%20Coder" alt="header" />
-
-<br/>
+<!-- ===== HERO ===== -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:7b61ff,50:ff2a6d,100:05d9e8&height=260&section=header&text=KHULAIFI&fontSize=88&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Web%20%E2%80%A2%20Desktop%20%E2%80%A2%20Creative%20Coder&descAlignY=62&descSize=20" width="100%" alt="header" />
 
 <a href="https://github.com/Khf20">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=05D9E8&center=true&vCenter=true&width=600&lines=🚀+Web+Developer;💻+HTML+|+CSS+|+JavaScript;🎯+TypeScript+|+PHP+|+Laravel;✨+Always+Learning+%26+Building;⚡+Create+%26+Innovate" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=05D9E8&center=true&vCenter=true&multiline=false&repeat=true&width=650&height=45&lines=%3E+Hi%2C+I'm+Khulaifi+%F0%9F%91%8B;%3E+Laravel+%2B+TypeScript+Developer;%3E+Building+desktop+apps+with+Tauri+%26+WinUI;%3E+Turning+ideas+into+shipped+projects+%F0%9F%9A%80" alt="typing" />
 </a>
 
 <br/>
-<br/>
 
-<img src="https://komarev.com/ghpvc/?username=Khf20&style=flat-square&color=05d9e8&label=Profile+Views" alt="views" />
-&nbsp;&nbsp;
-<img src="https://img.shields.io/github/followers/Khf20?style=flat-square&color=ff2a6d&label=Followers" alt="followers" />
+<img src="https://komarev.com/ghpvc/?username=Khf20&style=for-the-badge&color=7b61ff&label=PROFILE+VIEWS" alt="views" />
+<img src="https://img.shields.io/github/followers/Khf20?style=for-the-badge&color=ff2a6d&labelColor=111827&label=FOLLOWERS" alt="followers" />
+<img src="https://img.shields.io/badge/Timezone-UTC%2B7-05d9e8?style=for-the-badge&labelColor=111827" alt="timezone" />
 
 </div>
 
----
+<!-- ===== ABOUT ===== -->
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
 
-## 🎨 About Me
+<img align="right" src="https://media.giphy.com/media/W5eoZHcliMwsEPyYuI/giphy.gif" width="230" alt="coding" />
 
-<img align="right" src="https://media.giphy.com/media/W5eoZHcliMwsEPyYuI/giphy.gif" width="200" alt="coding" />
+> Mahasiswa yang suka ngoprek **web** dan sekarang mulai merambah **aplikasi desktop** 💻
 
-> Mahasiswa passionate tentang **Web Development** 🌐
+Dari web perpustakaan dan inventaris kampus sampai aplikasi WhatsApp desktop yang hemat RAM, saya suka bikin sesuatu yang benar-benar **dipakai**, bukan cuma jadi tugas.
 
-Saya percaya setiap line of code adalah seni. Dari konsep hingga deployment, saya menyukai proses menciptakan web yang tidak hanya *berfungsi* tapi juga *inspiring*.
-
-**What I Do:**
-- 🎯 Build responsive & interactive web applications
-- 🎨 Design clean interfaces dengan UX in mind
-- 🔧 Solve problems dengan creative solutions
-- 📚 Always learning new technologies
-- 🚀 Turn ideas into reality
-
----
-
-## 💻 Tech Arsenal
-
+```text
+🔭  Currently  : Sistem inventaris universitas (Laravel + TypeScript + Tailwind)
+🖥️  Shipping   : WhatsApp Desktop ringan berbasis Tauri v2 + Rust
+🛠️  Tinkering  : XDB — local PHP/MariaDB stack portable pakai C# + WinUI 3
+🎵  Fun stuff  : Web karaoke lirik per kata dari file LRC
+🌱  Learning   : Rust, desktop app, CI/CD release dengan GitHub Actions
+<br clear="right"/><!-- ===== TECH ===== -->
+⚡ Tech Stack
 <div align="center">
+Web<br/> <img src="https://skillicons.dev/icons?i=html,css,js,ts,php,laravel,react,tailwind,vite,nodejs&perline=10" alt="web stack" />
 
-### Languages & Frameworks
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white&labelColor=111827" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=111827" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=111827" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=111827" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&labelColor=111827" alt="PHP" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white&labelColor=111827" alt="Laravel" />
-</p>
+<br/><br/>
 
-### Tools & Platforms
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=111827" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=111827" alt="VS Code" />
-</p>
+Desktop & Systems<br/> <img src="https://skillicons.dev/icons?i=tauri,rust,cs,dotnet,java,python&perline=10" alt="desktop stack" />
 
-</div>
+<br/><br/>
 
----
+Database & Tools<br/> <img src="https://skillicons.dev/icons?i=mysql,git,github,githubactions,vscode,figma&perline=10" alt="tools" />
 
-## 🏆 Featured Projects
+</div><!-- ===== PROJECTS ===== -->
+🏆 Featured Projects
+<table> <tr> <td width="50%" valign="top">
+💬 
+WhatsApp Web Tauri
+WhatsApp desktop ringan untuk Windows. RAM ~60–100 MB, multi-akun, notifikasi native, PIN lock, dan force dark mode.
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">📚 Perpustakaan Digital</h3>
-      <p align="center">
-        <a href="https://github.com/Khf20/Perpustakaan-laravel">
-          <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
-          <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-        </a>
-      </p>
-      <p align="center">🔗 <a href="https://github.com/Khf20/Perpustakaan-laravel">Library Management System</a></p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🎓 Jadwal Kuliah App</h3>
-      <p align="center">
-        <a href="https://github.com/Khf20/aplikasi-jadwal-kuliah">
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-          <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-        </a>
-      </p>
-      <p align="center">🔗 <a href="https://github.com/Khf20/aplikasi-jadwal-kuliah">Schedule Management</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🏨 Sistem Reservasi</h3>
-      <p align="center">
-        <a href="https://github.com/Khf20/sistem_reservasi_ruangan_kelas_secara_daring">
-          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-          <img src="https://img.shields.io/badge/Interactive-Web-brightgreen?style=for-the-badge" alt="Web" />
-        </a>
-      </p>
-      <p align="center">🔗 <a href="https://github.com/Khf20/sistem_reservasi_ruangan_kelas_secara_daring">Room Reservation System</a></p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🎨 Macaron Theme</h3>
-      <p align="center">
-        <a href="https://github.com/Khf20/macaron">
-          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-          <img src="https://img.shields.io/badge/Neobrutalist-Design-orange?style=for-the-badge" alt="Design" />
-        </a>
-      </p>
-      <p align="center">🔗 <a href="https://github.com/Khf20/macaron">Beautiful UI Theme</a></p>
-    </td>
-  </tr>
-</table>
+<img src="https://img.shields.io/badge/Tauri_v2-24C8DB?style=flat-square&logo=tauri&logoColor=white" /> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /></td> <td width="50%" valign="top">
+🗄️ 
+XDB Database
+Panel desktop untuk stack Apache + MariaDB + PHP yang portable, tanpa install XAMPP. Ada PHP switcher dan deteksi bentrok port.
 
-### 🚀 More Projects
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" /> <img src="https://img.shields.io/badge/WinUI_3-0078D4?style=flat-square&logo=windows&logoColor=white" /> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" /></td> </tr> <tr> <td width="50%" valign="top">
+📦 
+Inventaris Universitas
+Sistem inventaris kampus dengan Laravel modern, frontend TypeScript, dan Tailwind.
 
-| 🧮 | ✅ | 🛒 | ☕ | 🍽️ | 📦 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| [**Calculator**](https://github.com/Khf20/Calculator-App) | [**Todo List**](https://github.com/Khf20/todo-list) | [**Grocery Bud**](https://github.com/Khf20/Grocery_bud) | [**Coffee Shop**](https://github.com/Khf20/woelandari_coffeshop) | [**Restaurant UI**](https://github.com/Khf20/slicing_ui) | [**Inventaris**](https://github.com/Khf20/inventaris-universitas) |
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" /></td> <td width="50%" valign="top">
+🎵 
+What If I Call
+Web musik interaktif dengan karaoke lirik per kata dari LRC, kontrol lock screen, dan preview share.
 
----
-
-## 📊 GitHub Stats & Analytics
-
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/Live_Demo-05d9e8?style=flat-square&logo=githubpages&logoColor=111827" /></td> </tr> </table><details> <summary><b>🚀 More Projects (klik untuk lihat)</b></summary> <br/>
+| Project | Stack | Deskripsi |
+|:--|:--:|:--|
+| 📚 [Perpustakaan Laravel](https://github.com/Khf20/Perpustakaan-laravel) | Laravel · Blade | Sistem manajemen perpustakaan |
+| 🎓 [Jadwal Kuliah](https://github.com/Khf20/aplikasi-jadwal-kuliah) | TypeScript | Aplikasi jadwal kuliah |
+| 🔐 [Rail Fence Cipher](https://github.com/Khf20/rail-fence-cipher) | HTML · JS | Enkripsi klasik rail fence |
+| 🎧 [Spotify Liquid Glass](https://github.com/Khf20/Apple-Spotify-Liquid-Glass--spicetify) | JavaScript | Tema Spicetify bergaya Liquid Glass |
+| 🏨 [Reservasi Ruangan](https://github.com/Khf20/sistem_reservasi_ruangan_kelas_secara_daring) | JavaScript | Reservasi ruang kelas online |
+| 🎨 [Macaron](https://github.com/Khf20/macaron) | CSS | Tema neobrutalist |
+| 🧮 [Calculator](https://github.com/Khf20/Calculator-App) · ✅ [Todo](https://github.com/Khf20/todo-list) · 🛒 [Grocery Bud](https://github.com/Khf20/Grocery_bud) | JavaScript | Project latihan JS |
+</details><!-- ===== STATS ===== -->
+📊 GitHub Analytics
+<div align="center"><img height="170" src="https://github-readme-stats.vercel.app/api?username=Khf20&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=05d9e8&icon_color=ff2a6d&text_color=ffffff&hide_border=true&include_all_commits=true&rank_icon=github" alt="stats" /> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khf20&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=05d9e8&text_color=ffffff&hide_border=true&langs_count=8" alt="top langs" /><img src="https://streak-stats.demolab.com/?user=Khf20&theme=tokyonight&background=0d1117&stroke=7b61ff&ring=ff2a6d&fire=ff2a6d&currStreakLabel=05d9e8&sideLabels=ffffff&hide_border=true" alt="streak" /><img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Khf20&bg_color=0d1117&color=05d9e8&line=ff2a6d&point=ffffff&area=true&area_color=7b61ff&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" /></div><!-- ===== 3D + SNAKE ===== -->
+🌌 Contribution Universe
+<div align="center"> <img src="./profile-3d-contrib/profile-night-rainbow.gif" width="100%" alt="3D Contribution" /> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Khf20/Khf20/output/github-snake-dark.svg" /> <img src="https://raw.githubusercontent.com/Khf20/Khf20/output/github-snake.svg" width="100%" alt="snake animation" /> </picture> </div><!-- ===== CONNECT ===== -->
+📬 Let's Connect
 <div align="center">
+<a href="https://github.com/Khf20"><img src="https://img.shields.io/badge/GitHub-Khf20-05d9e8?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" /></a> <a href="https://khf20.github.io/What-if-i-call/"><img src="https://img.shields.io/badge/Live_Project-Visit-ff2a6d?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111827" /></a>
 
-<table>
-  <tr>
-    <td>
-      <img height="200" src="https://github-readme-stats.vercel.app/api?username=Khf20&show_icons=true&theme=tokyonight&bg_color=111827&title_color=05d9e8&icon_color=ff2a6d&text_color=ffffff&hide_border=true&include_all_commits=true&count_private=false" alt="stats" />
-    </td>
-    <td>
-      <img height="200" src="https://github-readme-streak-stats.herokuapp.com/?user=Khf20&theme=tokyonight&background=111827&stroke=05d9e8&ring=ff2a6d&fire=ff2a6d&currStreakLabel=05d9e8&sideLabels=ffffff&hide_border=true" alt="streak" />
-    </td>
-  </tr>
-</table>
+<br/><br/>
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khf20&layout=compact&theme=tokyonight&bg_color=111827&title_color=05d9e8&text_color=ffffff&hide_border=true&langs_count=8" alt="top langs" />
-
-</div>
-
----
-
-## 🌟 3D Contribution Graph
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.gif" width="100%" alt="3D Contribution" />
-</div>
-
----
-
-## 🎯 Current Focus
-
-<div align="center">
-
-| 🌱 Learning | 🚀 Building | 💡 Exploring |
-|:---:|:---:|:---:|
-| Advanced TypeScript | Full-stack apps | Web3 & Blockchain |
-| React & Vue | UI/UX Design | Emerging Tech |
-| Backend Systems | Open Source | DevOps |
-
-</div>
-
----
-
-## 📬 Let's Connect!
-
-<div align="center">
-
-<a href="https://github.com/Khf20">
-  <img src="https://img.shields.io/badge/GitHub-@Khf20-05d9e8?style=for-the-badge&logo=github&logoColor=111827&labelColor=ffffff" alt="GitHub" />
-</a>
-
-<br/>
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ff2a6d,05d9e8,7b61ff&height=120&section=footer&reversal=false" width="100%" alt="footer" />
-
-</div>
-
----
-
-<div align="center">
-
-⭐ If you find my projects interesting, feel free to star them! <br/>
-💬 Let's collaborate and build something amazing together! <br/>
-📧 Always open for feedback and suggestions.
-
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3500&pause=800&color=FF2A6D&center=true&vCenter=true&width=500&lines=⭐+Kasih+star+kalau+suka+project-nya!;💬+Terbuka+untuk+kolaborasi+%26+feedback" alt="outro" /></div><img src="https://capsule-render.vercel.app/api?type=waving&color=0:05d9e8,50:ff2a6d,100:7b61ff&height=130&section=footer&animation=twinkling" width="100%" alt="footer" /> ```
